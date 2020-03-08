@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The Root Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "items": {
+        "id": "#/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+            "id",
+            "nome",
+            "descricao",
+            "valor_venda",
+            "estoque",
+            "endereco_foto",
+            "codigo_barras"
+        ],
+        "properties": {
+            "id": {
+                "id": "#/items/properties/id",
+                "type": "string",
+                "title": "The Id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+            },
+            "nome": {
+                "id": "#/items/properties/nome",
+                "type": "string",
+                "title": "The Nome Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+            },
+            "descricao": {
+                "id": "#/items/properties/descricao",
+                "type": "string",
+                "title": "The Descricao Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+            },
+            "valor_venda": {
+                "id": "#/items/properties/valor_venda",
+                "type": "string",
+                "title": "The Valor_venda Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+            },
+            "estoque": {
+                "id": "#/items/properties/estoque",
+                "type": "string",
+                "title": "The Estoque Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+            },
+            "endereco_foto": {
+                "id": "#/items/properties/endereco_foto",
+                "type": "string",
+                "title": "The Endereco_foto Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+            },
+            "codigo_barras": {
+                "id": "#/items/properties/codigo_barras",
+                "type": "string",
+                "title": "The Codigo_barras Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": ""
+                
+            }
+        }
+    }
+}
